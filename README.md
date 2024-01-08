@@ -1,6 +1,6 @@
 To run Breast Cancer DGE dataset on notebook, the following steps are needed:
 
-1.	Import Libraries:
+##1.	Import Libraries##
 
 •  Import necessary libraries, including numpy, seaborn, pandas, matplotlib.pyplot, sklearn modules (such as train_test_split, StandardScaler, classification_report, precision_recall_fscore_support, roc_auc_score, etc.),   and imbalanced-learn for SMOTE.
 
@@ -25,6 +25,7 @@ To run Breast Cancer DGE dataset on notebook, the following steps are needed:
   •	Split the dataset into training and testing sets using SMOTE for oversampling.
 
 5.	Model Training:
+
     •	Train various machine learning models (Logistic Regression, K Nearest Neighbors, Linear SVM, RBF SVM, Gaussian Process, Decision Tree, Random Forest, Neural Net, AdaBoost, Naive Bayes, Quadratic Discriminant Analysis).
 
     •	Use a loop to fit each model, print its accuracy, and evaluate its performance.
