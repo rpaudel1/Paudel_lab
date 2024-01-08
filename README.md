@@ -3,6 +3,7 @@ To run Breast Cancer DGE dataset on notebook, the following steps are needed:
 1.	Import Libraries:
 
 •  Import necessary libraries, including numpy, seaborn, pandas, matplotlib.pyplot, sklearn modules (such as train_test_split, StandardScaler, classification_report, precision_recall_fscore_support, roc_auc_score, etc.),   and imbalanced-learn for SMOTE.
+
 2.	Load Data:
  
   •	Load three CSV datasets (GSE52194.csv, GSE69240.csv, GSE71651.csv) into separate DataFrames (df1, df2, df3).
